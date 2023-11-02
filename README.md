@@ -1,2 +1,23 @@
-# flex-oxy
-QB-CORE Based oxy run
+# QB-CORE Based oxy run
+</br>
+- Get the item and talk to the person
+</br>
+- Give him the item to start a delivery
+</br>
+- Check GPS and deliver
+</br>
+- Talk to the man to buy stuff
+</br>
+</br>
+This uses <b>dealerrep</b> for the shop (Or change in config)
+</br>
+</br>
+Shop can be configured in the config, cost and set how much xp is needed for the item to buy (Even an option for lab key stuff)
+</br>
+</br>
+</br>
+You will need to setup your inventory path in the config for the shop to work (default qb)
+</br>
+You can change what you need to talk to the oxy man
+</br>
+Even change what you need to buy the item (Item, bank, cash)
