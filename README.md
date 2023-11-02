@@ -24,5 +24,4 @@ Even change what you need to buy the item (Item, bank, cash)
 
 # You will need
 - QB-CORE
-</br>
 - QB-MENU
