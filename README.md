@@ -1,10 +1,7 @@
 # QB-CORE Based oxy run
 - Get the item and talk to the person
-</br>
 - Give him the item to start a delivery
-</br>
 - Check GPS and deliver
-</br>
 - Talk to the man to buy stuff
 </br>
 </br>
