@@ -1,5 +1,4 @@
 # QB-CORE Based oxy run
-</br>
 - Get the item and talk to the person
 </br>
 - Give him the item to start a delivery
@@ -24,7 +23,6 @@ Even change what you need to buy the item (Item, bank, cash)
 </br>
 
 # You will need
-</br>
 - QB-CORE
 </br>
 - QB-MENU
