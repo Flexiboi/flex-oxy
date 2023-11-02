@@ -53,8 +53,8 @@ RegisterNetEvent('flex-oxy:client:shop', function()
 end)
 
 RegisterNetEvent('flex-oxy:client:startrun', function()
-    QBCore.Functions.TriggerCallback('djkms-jobtracker:GetJobCount', function(CurrentCops)
-        if CurrentCops >= Config.copsneeded then
+    QBCore.Functions.TriggerCallback('flex-oxy:server:checkPoliceCount', function(Cops)
+        if Cops then
             QBCore.Functions.TriggerCallback('flex-oxy:server:hasitem', function(hasbeer)
                 if hasbeer then
                     if not deliverystarted then
@@ -98,7 +98,7 @@ RegisterNetEvent('flex-oxy:client:startrun', function()
         else
             QBCore.Functions.Notify(Lang:t("error.nopolice", {value = Config.copsneeded}), 'error')
         end
-    end, 'police')
+    end)
 end)
 
 RegisterNetEvent('flex-oxy:client:cancel', function()
