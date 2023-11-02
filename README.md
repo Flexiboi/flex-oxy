@@ -22,6 +22,8 @@ You can change what you need to talk to the oxy man
 Even change what you need to buy the item (Item, bank, cash)
 </br>
 </br>
-#You will need
+# You will need
+</br>
 - QB-CORE
+</br>
 - QB-MENU
